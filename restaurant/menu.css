@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #fff3e0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #db5a42;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category h2 {
+    background-color: #db5a42;
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    font-weight: normal;
+    text-align: right;
+    margin-left: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #db5a42;
+    color: white;
+}
